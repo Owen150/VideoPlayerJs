@@ -1,0 +1,15 @@
+{
+  "name": "electron-project",
+  "version": "1.0.0",
+  "description": "vlcng media player",
+  "main": "player.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Michael Owen Oduor",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^13.1.2",
+    "milligram": "^1.4.1"
+  }
+}
