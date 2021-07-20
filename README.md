@@ -1,1 +1,1 @@
-An updated version of the VLC Media Player.
+A media player application using electronJs.
