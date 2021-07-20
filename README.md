@@ -1,2 +1,1 @@
-# electronproject
-An updated version of the VLC Media Player
+An updated version of the VLC Media Player.
