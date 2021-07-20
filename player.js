@@ -7,7 +7,7 @@ const { app, BrowserWindow, Menu, ipcMain } = electron;
 let mainWindow;
 let addWindow;
 
-//Listen for app to be ready
+//Listen for the app to be ready
 app.on('ready', function () {
 	//Create new window
 	mainWindow = new BrowserWindow({
@@ -54,7 +54,7 @@ function createAddWindow(){
 }
 
 
-//Catch item add
+//Catch item add from the addWindow to the MainWindow
 ipcMain.on('item:add', function (e, item) {
 	mainWindow.webContents.send('item:add', item);
 	addWindow.close();
